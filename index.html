@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>my-first-A-Frame</title>
-		<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-	</head>
-	<body>
-<a-scene>
-<a-assets>
-<a-asset-item id="moongirl-obj" src="/assets/moongirl.obj"></a-asset-time>
-<a-asset-item id="moongirl-mtl" src="/assets/moongirl.mtl"></a-asset-time>
-<a-asset-item id="moongirl-png" src="/assets/moongirl.png"></a-asset-time>
-<img id="temple" src="/assets/temple_360.jpg">
-</a-assets>
-<a-entity obj-model="obj: #moongirl-obj; mtl: #moongirl-mtl; png: #moongirl-png"></a-entity>
-<a-camera position="0 5 15" rotation="0 120 0"></a-camera>
-<a-sky src="#temple"></a-sky>
-</a-scene>
-	</body>
-</html>
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>my-first-A-Frame</title>
+			<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+		</head>
+		<body>
+	<a-scene>
+	<a-assets>
+	<a-asset-item id="moongirl-obj" src="./assets/moongirl.obj"></a-asset-time>
+	<a-asset-item id="moongirl-mtl" src="./assets/moongirl.mtl"></a-asset-time>
+	<a-asset-item id="moongirl-png" src="./assets/moongirl.png"></a-asset-time>
+	<img id="temple" src="./assets/temple_360.jpg">
+	</a-assets>
+	<a-entity obj-model="obj: #moongirl-obj; mtl: #moongirl-mtl; png: #moongirl-png"></a-entity>
+	<a-camera position="0 5 15" rotation="0 120 0"></a-camera>
+	<a-sky src="#temple"></a-sky>
+	</a-scene>
+		</body>
+	</html>
